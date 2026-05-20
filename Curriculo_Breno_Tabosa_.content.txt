@@ -1,0 +1,74 @@
+API. Tecnologias: TypeScript, Node.js, React, Tailwind CSS e Supabase (PostgreSQL).
+pacientes, agendamento integrado à Google Calendar API, acompanhamento clínico e integrações WhatsApp
+• SomosFisio / VitareFisio (SaaS Full-Stack): Criação de sistema para clínicas. Endpoints para registro de
+leads, integração de chatbots baseados em LLMs locais (Ollama) e sistema de recomendações.
+• CorreAI (CRM com IA): Arquitetura e desenvolvimento de um CRM para corretores de imóveis com gestão de
+WhatsApp para comunicação ágil. Tecnologias: TypeScript, React, Next.js e Supabase.
+agendamento de audiências e reuniões, além de sistema para anexo de arquivos. Integrado com a API do
+escritórios de advocacia. Implementação de módulos para controle de clientes, gestão financeira (honorários),
+• CRM Jurídico (Sistema de Gestão para Advogados):  Desenvolvimento de plataforma voltada para
+PROJETOS E VIVÊNCIA ACADÊMICA
+de bancos de dados para otimização logística.
+• Administração do fluxo de ponta a ponta, controle de estoque, atendimento ao cliente (B2C) e gerenciamento
+Loja Online de Produtos Importados                          Remoto
+Gerente de E-commerce                                  Anterior
+(SSG) com Next.js para maximizar rankeamento e Core Web Vitals.
+• Otimização de SEO e Performance: Aplicação de Server-Side Rendering (SSR) e Static Site Generation
+em Node.js, gerenciando bancos de dados e fluxos de autenticação.
+• Integração de APIs e Back-End: Construção e consumo de APIs RESTful conectando o front-end a serviços
+(Next.js, Vite) e Tailwind CSS, focando em alta performance e componentização.
+• Desenvolvimento de Aplicações: Engenharia de interfaces responsivas e sistemas web utilizando React
+Autônomo                                            Remoto
+Desenvolvedor Web Freelancer (Front-End / Full-Stack)             Atual
+Excel Avançado, traduzindo dados complexos em indicadores visuais (KPIs).
+• Business Intelligence (BI): Criação e manutenção de dashboards gerenciais interativos utilizando Power BI e
+exportando resultados padronizados (CSV/XLSX) e reduzindo o tempo de processamento manual.
+• Automação e Modelagem: Implementação de rotinas de automação para tratamento de dados massivos,
+SQL Server e RStudio, garantindo a integridade e disponibilidade das informações.
+• Desenvolvimento de Pipelines ETL: Atuação direta na extração, transformação e carga de dados utilizando
+Banco do Nordeste (BNB)                              Fortaleza, CE
+Estagiário em Análise e Engenharia de Dados                    Atual
+EXPERIÊNCIAS PROFISSIONAIS
+software.
+oportunidades para construir plataformas escaláveis, automatizar processos e integrar soluções modernas de
+Next.js, aliada à experiência estruturando pipelines ETL e modelagem de dados (SQL Server, Power BI). Busco
+e Engenharia de Dados. Trago vivência prática na criação de sistemas SaaS e aplicações web utilizando React e
+Desenvolvedor e estudante de Análise e Desenvolvimento de Sistemas com sólida base em arquitetura Full-Stack
+OBJETIVO PROFISSIONAL
+Fortaleza, Ceará | (85) 98833-5991 | brenocmesquita@gmail.com | Analista e Desenvolvedor de Sistemas 
+BRENO CAMELO MESQUITA TABOSA
+----------------Page (0) Break----------------
+• Inglês (Wizard): Leitura e Escrita Intermediária, Conversação Básica.
+IDIOMAS
+• Banco de Dados SQL do Zero ao Avançado - Udemy
+• Git e GitHub do Zero ao Avançado - Udemy
+• Getting Started with DevOps on AWS - AWS Training & Certification
+• Enterprise Design Thinking Practitioner - IBM
+• Fundamentos de Engenharia de Dados - Data Science Academy (DSA)
+CURSOS E CERTIFICAÇÕES
+• Ensino Médio - Colégio da Polícia Militar Edgard Facó
+2027.1
+• Graduação em Análise e Desenvolvimento de Sistemas - Universidade de Fortaleza (UNIFOR) | 2025.1 -
+ESCOLARIDADE
+em cenários de desenvolvimento freelancer.
+• Proatividade e Organização: Autogestão avançada com foco em resultados estruturados e entregas no prazo
+forte orientação ao cliente, desenvolvida em ambientes corporativos e de e-commerce.
+• Comunicação e Trabalho em Equipe: Facilidade de articulação interpessoal, colaboração multidisciplinar e
+software e tratamento de dados complexos.
+• Resolução de Problemas: Perfil analítico para o desenvolvimento de soluções lógicas em arquitetura de
+institucionais.
+• Liderança e Gestão:  Experiência prática na liderança de equipes e gestão de recursos financeiros
+SOFT SKILLS
+Ferramentas e IA: Git, GitHub, Integração com IA (OpenClaw, Ollama), APIs RESTful, Arduino IDE.
+Engenharia de Dados e BI: Power BI, RStudio, Processos ETL, Excel Avançado.
+Bancos de Dados e Cloud: SQL Server, PostgreSQL, Supabase, AWS (DevOps).
+Frameworks e Bibliotecas: React.js, Next.js, Node.js, Vite, Tailwind CSS.
+Linguagens de Programação: JavaScript, TypeScript, C#, Java, C++, R, SQL.
+COMPETÊNCIAS TÉCNICAS
+automação, apresentado no Dia T da universidade.
+• Hardware e Automação (UNIFOR): Desenvolvedor de protótipo de hardware em Arduino (C++) com foco em
+gestão orçamentária, bens e planejamento financeiro de eventos.
+• Liderança Acadêmica (UNIFOR): Diretor da Comissão de Finanças do Diretório Acadêmico, responsável pela
+implementando regras de negócio em etapas de ETL.
+• SCPA (Automação BNB):  Automação corporativa para extração de dados do SQL Server via RStudio,
+----------------Page (1) Break----------------
