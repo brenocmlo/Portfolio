@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, Mail, Sparkles } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   const handleScrollTo = (id: string) => {
     const target = document.querySelector(id);
     if (target) {
@@ -30,7 +33,7 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass-panel border-white/10 text-xs font-semibold text-accent-cyan mb-8 uppercase tracking-wider shadow-sm"
         >
           <Sparkles className="w-4 h-4 animate-pulse text-accent-cyan" />
-          <span>Disponível para Projetos</span>
+          <span>{t('hero.available')}</span>
         </motion.div>
 
         {/* Big Name Title */}
@@ -50,7 +53,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-lg md:text-2xl font-semibold text-slate-300 font-sans tracking-wide mb-6 uppercase"
         >
-          Desenvolvedor Full-Stack <span className="text-accent-cyan">&</span> Engenheiro de Dados
+          {t('hero.rolePart1')} <span className="text-accent-cyan">&</span> {t('hero.rolePart2')}
         </motion.h2>
 
         {/* Description Pitch */}
@@ -60,7 +63,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.45 }}
           className="text-base md:text-lg text-slate-400 font-normal max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Construindo plataformas escaláveis e transformando dados complexos em soluções modernas de software.
+          {t('hero.description')}
         </motion.p>
 
         {/* CTA Buttons */}
@@ -74,14 +77,14 @@ export default function Hero() {
             onClick={() => handleScrollTo('#projetos')}
             className="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider text-white bg-gradient-to-r from-accent-cyan to-accent-indigo shadow-[0_4px_20px_rgba(6,182,212,0.3)] hover:shadow-[0_4px_25px_rgba(6,182,212,0.45)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 cursor-pointer"
           >
-            Ver Projetos
+            {t('hero.viewProjects')}
           </button>
           
           <button
             onClick={() => handleScrollTo('#contacto')}
             className="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider text-slate-300 border border-white/10 glass-panel hover:bg-white/5 hover:border-white/20 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 cursor-pointer"
           >
-            Contacto
+            {t('hero.contact')}
           </button>
         </motion.div>
 
@@ -151,7 +154,7 @@ export default function Hero() {
           onClick={() => handleScrollTo('#sobre')}
         >
           <span className="text-xs uppercase tracking-widest text-slate-500 group-hover:text-slate-300 transition-colors">
-            Rolar
+            {t('hero.scroll')}
           </span>
           <ArrowDown className="w-4 h-4 text-slate-500 group-hover:text-accent-cyan group-hover:translate-y-1 transition-all duration-300 animate-bounce" />
         </motion.div>

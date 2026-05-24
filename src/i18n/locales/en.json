@@ -1,0 +1,137 @@
+{
+  "header": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadCv": "Download CV",
+    "ariaCloseMenu": "Close menu",
+    "ariaOpenMenu": "Open menu"
+  },
+  "hero": {
+    "available": "Available for Projects",
+    "rolePart1": "Full-Stack Developer",
+    "rolePart2": "Data Engineer",
+    "description": "Building scalable platforms and transforming complex data into modern software solutions.",
+    "viewProjects": "View Projects",
+    "contact": "Contact",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About",
+    "mim": "Me",
+    "subtitle": "Hybrid Profile: Development & Data",
+    "bio1": "Systems Analysis and Development student with a solid foundation in Full-Stack architecture and Data Engineering. I have practical experience in creating SaaS systems and interactive web applications, structuring efficient ETL pipelines, and robust data modeling.",
+    "bio2": "My focus is on building scalable platforms, automating tedious business processes, and integrating modern software solutions with the latest technologies, such as local language models (LLMs) and analytical BI visualizations.",
+    "statFullStackTitle": "Full-Stack",
+    "statFullStackDesc": "React, Next.js & Node.js",
+    "statDataTitle": "BI & Data",
+    "statDataDesc": "SQL, ETL & Dashboards",
+    "competenciesTitle": "My Technical Skills",
+    "stackFront": "Front-End Development",
+    "stackBack": "Back-End & Integrations",
+    "stackData": "Data Engineering & BI",
+    "skills": {
+      "auth": "Authentication",
+      "localLlm": "Local LLMs (Ollama)",
+      "etl": "ETL Pipelines",
+      "excel": "Advanced Excel",
+      "dataModeling": "Data Modeling",
+      "automation": "Automation",
+      "stockManagement": "Inventory Management",
+      "databases": "Databases",
+      "logistics": "Logistics"
+    }
+  },
+  "experience": {
+    "title": "Professional",
+    "profissional": "Experience",
+    "present": "Present",
+    "bnb": {
+      "role": "Data Analysis and Engineering Intern",
+      "company": "Banco do Nordeste (BNB)",
+      "period": "Jan 2024 - Present",
+      "bullet1": "Working with ETL (Extract, Transform, Load) pipelines using SQL Server and RStudio for analytical processing.",
+      "bullet2": "Developing scripts to automate the processing of large-scale databases.",
+      "bullet3": "Creating and maintaining interactive dashboards in Power BI to monitor institutional performance KPIs."
+    },
+    "freelancer": {
+      "role": "Freelancer Web Developer (Full-Stack)",
+      "company": "Freelance Projects",
+      "period": "2022 - Present",
+      "bullet1": "Engineering high-fidelity, high-performance responsive interfaces using Next.js, Vite, and Tailwind CSS.",
+      "bullet2": "Building robust APIs in Node.js with secure endpoints to process business logic.",
+      "bullet3": "Advanced SEO and page load optimization through Server-Side Rendering (SSR) and Static Site Generation (SSG)."
+    },
+    "ecommerce": {
+      "role": "E-commerce Manager",
+      "company": "Retail / Digital Operation",
+      "period": "2020 - 2022",
+      "bullet1": "Integrated end-to-end operational flow management across e-commerce platforms.",
+      "bullet2": "Synchronized physical and virtual inventory control, minimizing stockouts.",
+      "bullet3": "Managing and analyzing transactional databases to optimize shipping and dispatch logistics."
+    }
+  },
+  "projects": {
+    "title": "Featured",
+    "destaque": "Projects",
+    "explore": "Explore Details",
+    "filters": {
+      "all": "All",
+      "sites": "Websites",
+      "systems": "Systems"
+    },
+    "correai": {
+      "title": "CorreAI (CRM with AI)",
+      "subtitle": "CRM for Real Estate Agents",
+      "description": "An intelligent real estate lead management platform that integrates conversational chatbots based on local LLMs (Ollama) for automatic qualification and a smart engine for personalized property recommendations."
+    },
+    "somosfisio": {
+      "title": "SomosFisio / VitareFisio",
+      "subtitle": "SaaS for Physiotherapy Clinics",
+      "description": "A Full-Stack SaaS platform for physiotherapy clinic administration. Features complete clinical management workflows, weekly appointment scheduling, electronic medical records, and visual patient rehabilitation progress tracking."
+    },
+    "crmjuridico": {
+      "title": "CRM Jurídico / Advocacy System",
+      "subtitle": "Advocacy Management & Finance",
+      "description": "A platform for law firms with client tracking, detailed financial management of fees, hearing schedules, and file attachments. Integrated with the WhatsApp API."
+    },
+    "siteadvogado": {
+      "title": "Lawyer Website",
+      "subtitle": "Professional Digital Presence",
+      "description": "High-conversion landing page and digital presence engineered for a law firm, featuring custom-tailored design, responsive layout, ultra-fast loading times, and accessibility compliance."
+    },
+    "siteestetica": {
+      "title": "Aesthetic Clinic Website",
+      "subtitle": "Premium Landing Page",
+      "description": "Modern and premium aesthetic clinic landing page focused on conversion and appointment scheduling. Showcases body and facial treatments in a visually stunning layout with clean contact integrations."
+    }
+  },
+  "contact": {
+    "title": "Let's",
+    "talk": "Chat?",
+    "infoTitle": "Contact Information",
+    "infoDesc": "I am open to new opportunities for internships, freelancing, and projects in web development and data engineering. Feel free to get in touch!",
+    "phone": "Phone",
+    "location": "Location",
+    "locationValue": "Fortaleza, Ceará, Brazil",
+    "waMsg": "Hello Breno, I came from your portfolio!",
+    "socialTitle": "Social Media",
+    "formTitle": "Send a Message",
+    "formName": "Name",
+    "formNamePlaceholder": "Your name",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "your.email@example.com",
+    "formSubject": "Subject",
+    "formSubjectPlaceholder": "Message subject",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Hi Breno, I'd like to talk about...",
+    "formSuccess": "Message sent successfully! Breno will get in touch soon.",
+    "formError": "Error sending. Try via WhatsApp or email directly.",
+    "btnSending": "Sending...",
+    "btnSent": "Sent!",
+    "btnSend": "Send Message",
+    "footerRights": "© {{year}} Breno Tabosa. All rights reserved.",
+    "footerBuiltWith": "Built with React, Vite, and Tailwind CSS"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "header": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "contact": "Contacto",
+    "downloadCv": "Download CV",
+    "ariaCloseMenu": "Fechar menu",
+    "ariaOpenMenu": "Abrir menu"
+  },
+  "hero": {
+    "available": "Disponível para Projetos",
+    "rolePart1": "Desenvolvedor Full-Stack",
+    "rolePart2": "Engenheiro de Dados",
+    "description": "Construindo plataformas escaláveis e transformando dados complexos em soluções modernas de software.",
+    "viewProjects": "Ver Projetos",
+    "contact": "Contacto",
+    "scroll": "Rolar"
+  },
+  "about": {
+    "title": "Sobre",
+    "mim": "Mim",
+    "subtitle": "Perfil Híbrido: Desenvolvimento & Dados",
+    "bio1": "Estudante de Análise e Desenvolvimento de Sistemas com sólida base em arquitetura Full-Stack e Engenharia de Dados. Tenho vivência prática na criação de sistemas SaaS e aplicações web interativas, estruturação de pipelines ETL eficientes e modelagem robusta de dados.",
+    "bio2": "Meu foco é construir plataformas escaláveis, automatizar processos morosos de negócios e integrar soluções modernas de software com as tecnologias mais recentes, como modelos de linguagem locais (LLMs) e visualizações analíticas de BI.",
+    "statFullStackTitle": "Full-Stack",
+    "statFullStackDesc": "React, Next.js & Node.js",
+    "statDataTitle": "BI & Dados",
+    "statDataDesc": "SQL, ETL & Dashboards",
+    "competenciesTitle": "Minhas Competências Técnicas",
+    "stackFront": "Front-End Development",
+    "stackBack": "Back-End & Integrações",
+    "stackData": "Engenharia de Dados & BI",
+    "skills": {
+      "auth": "Autenticação",
+      "localLlm": "LLMs Locais (Ollama)",
+      "etl": "Pipelines ETL",
+      "excel": "Excel Avançado",
+      "dataModeling": "Modelagem de Dados",
+      "automation": "Automação",
+      "stockManagement": "Gestão de Estoque",
+      "databases": "Bancos de Dados",
+      "logistics": "Logística"
+    }
+  },
+  "experience": {
+    "title": "Experiência",
+    "profissional": "Profissional",
+    "present": "Presente",
+    "bnb": {
+      "role": "Estagiário em Análise e Engenharia de Dados",
+      "company": "Banco do Nordeste (BNB)",
+      "period": "Jan 2024 - Presente",
+      "bullet1": "Atuação com pipelines ETL (Extract, Transform, Load) utilizando SQL Server e RStudio para processamento analítico.",
+      "bullet2": "Desenvolvimento de scripts para automação de tratamento de bases de dados de grande escala.",
+      "bullet3": "Criação e manutenção de dashboards interativos em Power BI para acompanhamento de KPIs de desempenho institucionais."
+    },
+    "freelancer": {
+      "role": "Desenvolvedor Web Freelancer (Full-Stack)",
+      "company": "Projetos Autônomos",
+      "period": "2022 - Presente",
+      "bullet1": "Engenharia de interfaces responsivas de alta fidelidade e performance utilizando Next.js, Vite e Tailwind CSS.",
+      "bullet2": "Construção de APIs robustas em Node.js com endpoints seguros para processamento de regras de negócios.",
+      "bullet3": "Otimização avançada de SEO e carregamento de páginas através de Renderização do Lado do Servidor (SSR) e Geração Estática (SSG)."
+    },
+    "ecommerce": {
+      "role": "Gerente de E-commerce",
+      "company": "Operação Varejo / Digital",
+      "period": "2020 - 2022",
+      "bullet1": "Administração integrada de fluxo operacional de ponta a ponta em plataformas de comércio eletrónico.",
+      "bullet2": "Controlo de inventários físicos e virtuais de forma sincronizada, minimizando ruturas.",
+      "bullet3": "Gestão e análise de bases de dados transacionais para otimização de logística de envio e expedição."
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "destaque": "em Destaque",
+    "explore": "Explorar Detalhes",
+    "filters": {
+      "all": "Todos",
+      "sites": "Sites",
+      "systems": "Sistemas"
+    },
+    "correai": {
+      "title": "CorreAI (CRM com IA)",
+      "subtitle": "CRM para Corretores de Imóveis",
+      "description": "Plataforma inteligente de gestão de leads imobiliários que integra chatbots conversacionais baseados em LLMs locais (Ollama) para qualificação automática e um motor inteligente para recomendação de imóveis personalizados."
+    },
+    "somosfisio": {
+      "title": "SomosFisio / VitareFisio",
+      "subtitle": "SaaS para Clínicas de Fisioterapia",
+      "description": "Plataforma SaaS Full-Stack para administração de clínicas de fisioterapia. Contém fluxos completos de gestão clínica, agendamento de consultas semanais, prontuário eletrónico e acompanhamento visual do progresso de reabilitação dos pacientes."
+    },
+    "crmjuridico": {
+      "title": "CRM Jurídico / Sistema de Advocacia",
+      "subtitle": "Gestão e Financeiro de Advocacia",
+      "description": "Plataforma para escritórios de advocacia com controle de clientes, gestão financeira detalhada de honorários, agenda de audiências e anexo de arquivos. Integrado à API do WhatsApp."
+    },
+    "siteadvogado": {
+      "title": "Site Advogado",
+      "subtitle": "Presença Digital Profissional",
+      "description": "Landing page de alta conversão e presença digital desenvolvida para escritório de advocacia, com design sob medida, layout responsivo, carregamento ultrarrápido e conformidade de acessibilidade."
+    },
+    "siteestetica": {
+      "title": "Site Estética",
+      "subtitle": "Landing Page Premium",
+      "description": "Landing page de estética premium e moderna focada em conversão e agendamentos. Apresenta tratamentos corporais e faciais de forma visualmente atraente, design elegante e integração de contato direto."
+    }
+  },
+  "contact": {
+    "title": "Vamos",
+    "talk": "Conversar?",
+    "infoTitle": "Informações de Contacto",
+    "infoDesc": "Estou aberto a novas oportunidades de estágio, freelancing e projetos na área de desenvolvimento web e engenharia de dados. Sinta-se à vontade para entrar em contacto!",
+    "phone": "Telefone",
+    "location": "Localização",
+    "locationValue": "Fortaleza, Ceará",
+    "waMsg": "Olá Breno, vim pelo seu portfólio!",
+    "socialTitle": "Redes Sociais",
+    "formTitle": "Enviar uma Mensagem",
+    "formName": "Nome",
+    "formNamePlaceholder": "Seu nome",
+    "formEmail": "E-mail",
+    "formEmailPlaceholder": "seu.email@exemplo.com",
+    "formSubject": "Assunto",
+    "formSubjectPlaceholder": "Assunto da mensagem",
+    "formMessage": "Mensagem",
+    "formMessagePlaceholder": "Olá Breno, gostaria de falar sobre...",
+    "formSuccess": "Mensagem enviada com sucesso! Breno entrará em contacto em breve.",
+    "formError": "Erro ao enviar. Tente pelo WhatsApp ou e-mail diretamente.",
+    "btnSending": "Enviando...",
+    "btnSent": "Enviado!",
+    "btnSend": "Enviar Mensagem",
+    "footerRights": "© {{year}} Breno Tabosa. Todos os direitos reservados.",
+    "footerBuiltWith": "Construído com React, Vite e Tailwind CSS"
+  }
+}

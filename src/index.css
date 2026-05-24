@@ -18,6 +18,10 @@
     scroll-behavior: smooth;
   }
   
+  section {
+    scroll-margin-top: 80px;
+  }
+  
   body {
     background-color: var(--color-bg-dark);
     font-family: var(--font-sans);

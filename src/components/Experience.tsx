@@ -1,40 +1,43 @@
 import { motion } from 'framer-motion';
 import { Briefcase, Calendar, CheckCircle2 } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export default function Experience() {
+  const { t } = useTranslation();
+
   const experiences = [
     {
-      role: 'Estagiário em Análise e Engenharia de Dados',
-      company: 'Banco do Nordeste (BNB)',
-      period: 'Jan 2024 - Presente',
+      role: t('experience.bnb.role'),
+      company: t('experience.bnb.company'),
+      period: t('experience.bnb.period'),
       description: [
-        'Atuação com pipelines ETL (Extract, Transform, Load) utilizando SQL Server e RStudio para processamento analítico.',
-        'Desenvolvimento de scripts para automação de tratamento de bases de dados de grande escala.',
-        'Criação e manutenção de dashboards interativos em Power BI para acompanhamento de KPIs de desempenho institucionais.'
+        t('experience.bnb.bullet1'),
+        t('experience.bnb.bullet2'),
+        t('experience.bnb.bullet3')
       ],
-      skills: ['SQL Server', 'RStudio', 'Pipelines ETL', 'Power BI', 'Automação']
+      skills: ['SQL Server', 'RStudio', t('about.skills.etl'), 'Power BI', t('about.skills.automation')]
     },
     {
-      role: 'Desenvolvedor Web Freelancer (Full-Stack)',
-      company: 'Projetos Autônomos',
-      period: '2022 - Presente',
+      role: t('experience.freelancer.role'),
+      company: t('experience.freelancer.company'),
+      period: t('experience.freelancer.period'),
       description: [
-        'Engenharia de interfaces responsivas de alta fidelidade e performance utilizando Next.js, Vite e Tailwind CSS.',
-        'Construção de APIs robustas em Node.js com endpoints seguros para processamento de regras de negócios.',
-        'Otimização avançada de SEO e carregamento de páginas através de Renderização do Lado do Servidor (SSR) e Geração Estática (SSG).'
+        t('experience.freelancer.bullet1'),
+        t('experience.freelancer.bullet2'),
+        t('experience.freelancer.bullet3')
       ],
       skills: ['Next.js', 'React', 'Node.js', 'Tailwind CSS', 'RESTful APIs', 'SEO / Web Performance']
     },
     {
-      role: 'Gerente de E-commerce',
-      company: 'Operação Varejo / Digital',
-      period: '2020 - 2022',
+      role: t('experience.ecommerce.role'),
+      company: t('experience.ecommerce.company'),
+      period: t('experience.ecommerce.period'),
       description: [
-        'Administração integrada de fluxo operacional de ponta a ponta em plataformas de comércio eletrónico.',
-        'Controlo de inventários físicos e virtuais de forma sincronizada, minimizando ruturas.',
-        'Gestão e análise de bases de dados transacionais para otimização de logística de envio e expedição.'
+        t('experience.ecommerce.bullet1'),
+        t('experience.ecommerce.bullet2'),
+        t('experience.ecommerce.bullet3')
       ],
-      skills: ['E-commerce', 'Gestão de Estoque', 'Bancos de Dados', 'Logística', 'Excel Avançado']
+      skills: ['E-commerce', t('about.skills.stockManagement'), t('about.skills.databases'), t('about.skills.logistics'), t('about.skills.excel')]
     }
   ];
 
@@ -45,7 +48,7 @@ export default function Experience() {
         {/* Section Heading */}
         <div className="text-center mb-16">
           <h2 className="font-display font-extrabold text-3xl md:text-5xl text-white mb-4">
-            Experiência <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-cyan to-accent-indigo">Profissional</span>
+            {t('experience.title')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-cyan to-accent-indigo">{t('experience.profissional')}</span>
           </h2>
           <div className="w-12 h-1.5 bg-accent-cyan mx-auto rounded-full" />
         </div>
@@ -79,7 +82,7 @@ export default function Experience() {
                       {exp.company}
                     </span>
                   </div>
-                  <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-accent-cyan bg-accent-cyan/10 px-3 py-1 rounded-full border border-accent-cyan/10 w-fit">
+                  <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-accent-cyan bg-accent-cyan/10 px-3 py-1 rounded-full border border-accent-cyan/10 w-fit shrink-0">
                     <Calendar className="w-3.5 h-3.5" />
                     {exp.period}
                   </span>
