@@ -81,7 +81,7 @@ export default function Hero() {
           </button>
           
           <button
-            onClick={() => handleScrollTo('#contacto')}
+            onClick={() => handleScrollTo('#contato')}
             className="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-sm uppercase tracking-wider text-slate-300 border border-white/10 glass-panel hover:bg-white/5 hover:border-white/20 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 cursor-pointer"
           >
             {t('hero.contact')}

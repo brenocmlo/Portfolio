@@ -19,7 +19,7 @@ export default function Header() {
     { label: t('header.about'), href: '#sobre' },
     { label: t('header.experience'), href: '#experiencia' },
     { label: t('header.projects'), href: '#projetos' },
-    { label: t('header.contact'), href: '#contacto' },
+    { label: t('header.contact'), href: '#contato' },
   ];
 
   const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

@@ -3,7 +3,7 @@
     "about": "Sobre",
     "experience": "Experiência",
     "projects": "Projetos",
-    "contact": "Contacto",
+    "contact": "Contato",
     "downloadCv": "Download CV",
     "ariaCloseMenu": "Fechar menu",
     "ariaOpenMenu": "Abrir menu"
@@ -14,7 +14,7 @@
     "rolePart2": "Engenheiro de Dados",
     "description": "Construindo plataformas escaláveis e transformando dados complexos em soluções modernas de software.",
     "viewProjects": "Ver Projetos",
-    "contact": "Contacto",
+    "contact": "Contato",
     "scroll": "Rolar"
   },
   "about": {
@@ -110,8 +110,8 @@
   "contact": {
     "title": "Vamos",
     "talk": "Conversar?",
-    "infoTitle": "Informações de Contacto",
-    "infoDesc": "Estou aberto a novas oportunidades de estágio, freelancing e projetos na área de desenvolvimento web e engenharia de dados. Sinta-se à vontade para entrar em contacto!",
+    "infoTitle": "Informações de Contato",
+    "infoDesc": "Estou aberto a novas oportunidades de estágio, freelancing e projetos na área de desenvolvimento web e engenharia de dados. Sinta-se à vontade para entrar em contato!",
     "phone": "Telefone",
     "location": "Localização",
     "locationValue": "Fortaleza, Ceará",
@@ -126,7 +126,7 @@
     "formSubjectPlaceholder": "Assunto da mensagem",
     "formMessage": "Mensagem",
     "formMessagePlaceholder": "Olá Breno, gostaria de falar sobre...",
-    "formSuccess": "Mensagem enviada com sucesso! Breno entrará em contacto em breve.",
+    "formSuccess": "Mensagem enviada com sucesso! Breno entrará em contato em breve.",
     "formError": "Erro ao enviar. Tente pelo WhatsApp ou e-mail diretamente.",
     "btnSending": "Enviando...",
     "btnSent": "Enviado!",

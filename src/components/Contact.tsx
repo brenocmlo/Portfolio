@@ -72,7 +72,7 @@ export default function Contact() {
     'px-4 py-3 rounded-xl bg-bg-darker/60 border border-white/5 text-sm text-white placeholder-slate-600 focus:outline-none focus:border-accent-cyan transition-colors w-full';
 
   return (
-    <section id="contacto" className="py-24 relative overflow-hidden bg-bg-dark">
+    <section id="contato" className="py-24 relative overflow-hidden bg-bg-dark">
       {/* Background Glow */}
       <div className="absolute bottom-0 right-[20%] w-[300px] h-[300px] rounded-full bg-accent-purple/5 blur-[100px] pointer-events-none" />
 
