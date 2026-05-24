@@ -55,8 +55,19 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         {/* Logo */}
         <a href="#inicio" className="flex items-center gap-2 group">
-          <div className="w-9 h-9 rounded-xl overflow-hidden flex items-center justify-center shadow-[0_0_15px_rgba(6,182,212,0.3)] group-hover:scale-105 transition-transform border border-white/10 bg-[#090d16]">
-            <img src="/portfolio_icon.png" alt="Logo" className="w-full h-full object-cover" />
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-accent-cyan to-accent-purple flex items-center justify-center shadow-[0_0_15px_rgba(6,182,212,0.3)] group-hover:scale-105 transition-transform">
+            <svg
+              className="w-5 h-5 text-white"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M16 18l6-6-6-6M8 6L2 12l6 6" />
+              <circle cx="12" cy="12" r="2.5" className="fill-white stroke-white" />
+            </svg>
           </div>
           <span className="font-display font-bold text-xl tracking-tight text-white group-hover:text-accent-cyan transition-colors">
             Breno<span className="text-accent-cyan">.</span>Tabosa
