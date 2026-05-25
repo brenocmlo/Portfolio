@@ -20,6 +20,7 @@ export default function About() {
 
   const techStacks = [
     {
+      id: 'front',
       title: t('about.stackFront'),
       icon: <Code2 className="w-6 h-6 text-accent-cyan" />,
       color: 'from-accent-cyan/20 to-transparent',
@@ -28,6 +29,7 @@ export default function About() {
       skills: ['React', 'Next.js', 'Vite', 'Tailwind CSS', 'TypeScript', 'HTML5/CSS3']
     },
     {
+      id: 'back',
       title: t('about.stackBack'),
       icon: <Cpu className="w-6 h-6 text-accent-indigo" />,
       color: 'from-accent-indigo/20 to-transparent',
@@ -36,6 +38,7 @@ export default function About() {
       skills: ['Node.js', 'Express', 'RESTful APIs', t('about.skills.auth'), t('about.skills.localLlm'), 'JSON/APIs']
     },
     {
+      id: 'data',
       title: t('about.stackData'),
       icon: <Database className="w-6 h-6 text-accent-purple" />,
       color: 'from-accent-purple/20 to-transparent',
@@ -115,7 +118,7 @@ export default function About() {
         >
           {techStacks.map((stack) => (
             <motion.div
-              key={stack.title}
+              key={stack.id}
               variants={itemVariants}
               className={`group p-8 rounded-2xl glass-panel border-white/5 bg-gradient-to-b ${stack.color} hover:bg-[#111827]/80 hover:translate-y-[-4px] transition-all duration-300 ${stack.borderColor} ${stack.shadowColor}`}
             >
