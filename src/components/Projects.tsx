@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Bot, Calendar, Scale, Sparkles, Globe, ArrowRight } from 'lucide-react';
+import { Bot, Calendar, Scale, Sparkles, Globe, ArrowRight, Crown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export default function Projects() {
@@ -8,6 +8,17 @@ export default function Projects() {
   const { t } = useTranslation();
 
   const projects = [
+    {
+      title: t('projects.listasvip.title'),
+      subtitle: t('projects.listasvip.subtitle'),
+      description: t('projects.listasvip.description'),
+      image: '/listas_vip_mockup.png',
+      tags: ['React', 'Node.js', 'Tailwind CSS', 'Full-Stack'],
+      icon: <Crown className="w-5 h-5 text-amber-400" />,
+      color: 'hover:border-amber-400/40 hover:shadow-[0_0_30px_rgba(251,191,36,0.15)]',
+      link: 'https://listas-vip.vercel.app/',
+      category: 'systems'
+    },
     {
       title: t('projects.correai.title'),
       subtitle: t('projects.correai.subtitle'),

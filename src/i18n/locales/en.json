@@ -105,6 +105,11 @@
       "title": "Aesthetic Clinic Website",
       "subtitle": "Premium Landing Page",
       "description": "Modern and premium aesthetic clinic landing page focused on conversion and appointment scheduling. Showcases body and facial treatments in a visually stunning layout with clean contact integrations."
+    },
+    "listasvip": {
+      "title": "VIP Lists System",
+      "subtitle": "Events & Nightclubs Management",
+      "description": "Full-Stack application to modernize guest list management. Offers a frictionless experience for clients to secure their spots, and centralized metrics with real-time door management tools for event producers."
     }
   },
   "contact": {

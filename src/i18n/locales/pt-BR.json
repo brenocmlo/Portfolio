@@ -105,6 +105,11 @@
       "title": "Site Estética",
       "subtitle": "Landing Page Premium",
       "description": "Landing page de estética premium e moderna focada em conversão e agendamentos. Apresenta tratamentos corporais e faciais de forma visualmente atraente, design elegante e integração de contato direto."
+    },
+    "listasvip": {
+      "title": "Sistema de Listas VIPs",
+      "subtitle": "Gestão de Eventos e Baladas",
+      "description": "Aplicação Full-Stack para modernizar a gestão de listas de convidados. Oferece uma experiência sem atritos para o cliente garantir seu nome, e métricas centralizadas com ferramentas de portaria em tempo real para os produtores."
     }
   },
   "contact": {
