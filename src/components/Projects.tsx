@@ -66,7 +66,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5 text-accent-cyan" />,
       color: 'hover:border-accent-cyan/40 hover:shadow-[0_0_30px_rgba(6,182,212,0.15)]',
       glowColor: '6, 182, 212',
-      link: 'https://marcio-adv-site.vercel.app',
+      link: 'https://www.marciolopesadv.com.br/',
       category: 'sites'
     },
     {
