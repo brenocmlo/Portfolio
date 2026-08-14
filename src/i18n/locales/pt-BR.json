@@ -31,6 +31,7 @@
     "stackFront": "Front-End Development",
     "stackBack": "Back-End & Integrações",
     "stackData": "Engenharia de Dados & BI",
+    "stackInfra": "DevOps & Arquitetura",
     "skills": {
       "auth": "Autenticação",
       "localLlm": "LLMs Locais (Ollama)",

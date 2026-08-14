@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Code2, Cpu, Database, Award, BookOpen } from 'lucide-react';
+import { Code2, Cpu, Database, Award, BookOpen, Server } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export default function About() {
@@ -45,6 +45,15 @@ export default function About() {
       borderColor: 'group-hover:border-accent-purple/50',
       shadowColor: 'group-hover:shadow-[0_0_20px_rgba(168,85,247,0.15)]',
       skills: ['SQL Server', 'RStudio', t('about.skills.etl'), 'Power BI', t('about.skills.excel'), t('about.skills.dataModeling')]
+    },
+    {
+      id: 'infra',
+      title: t('about.stackInfra'),
+      icon: <Server className="w-6 h-6 text-emerald-400" />,
+      color: 'from-emerald-400/20 to-transparent',
+      borderColor: 'group-hover:border-emerald-400/50',
+      shadowColor: 'group-hover:shadow-[0_0_20px_rgba(52,211,153,0.15)]',
+      skills: ['VPS', 'CI/CD', 'Deploy', 'System Architecture', 'Clean Code']
     }
   ];
 
@@ -114,7 +123,7 @@ export default function About() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-100px' }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
           {techStacks.map((stack) => (
             <motion.div
