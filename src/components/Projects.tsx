@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Bot, Calendar, Scale, Sparkles, Globe, ArrowRight, Crown } from 'lucide-react';
+import { Bot, Calendar, Scale, Sparkles, Globe, ArrowRight, Crown, Plane } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 // @ts-ignore
 import MagicBento from './MagicBento';
@@ -79,6 +79,18 @@ export default function Projects() {
       color: 'hover:border-accent-purple/40 hover:shadow-[0_0_30px_rgba(168,85,247,0.15)]',
       glowColor: '168, 85, 247',
       link: 'https://landingpage-leticia.vercel.app',
+      category: 'sites'
+    },
+    {
+      title: t('projects.araucoturismo.title'),
+      subtitle: t('projects.araucoturismo.subtitle'),
+      description: t('projects.araucoturismo.description'),
+      image: '/arauco_turismo_mockup.png',
+      tags: ['Next.js', 'React', 'Prisma', 'Tailwind CSS', 'MariaDB'],
+      icon: <Plane className="w-5 h-5 text-emerald-400" />,
+      color: 'hover:border-emerald-400/40 hover:shadow-[0_0_30px_rgba(52,211,153,0.15)]',
+      glowColor: '52, 211, 153',
+      link: 'https://araucoturismo.com.br',
       category: 'sites'
     }
   ];

@@ -110,6 +110,11 @@
       "title": "Sistema de Listas VIPs",
       "subtitle": "Gestão de Eventos e Baladas",
       "description": "Aplicação Full-Stack para modernizar a gestão de listas de convidados. Oferece uma experiência sem atritos para o cliente garantir seu nome, e métricas centralizadas com ferramentas de portaria em tempo real para os produtores."
+    },
+    "araucoturismo": {
+      "title": "Arauco Turismo",
+      "subtitle": "Turismo para o Chile",
+      "description": "Plataforma desenvolvida para a agência Arauco Turismo, facilitando a exploração e agendamento de pacotes e passeios turísticos para o Chile. Conta com um catálogo rico e design focado na experiência do usuário."
     }
   },
   "contact": {

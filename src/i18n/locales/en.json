@@ -110,6 +110,11 @@
       "title": "VIP Lists System",
       "subtitle": "Events & Nightclubs Management",
       "description": "Full-Stack application to modernize guest list management. Offers a frictionless experience for clients to secure their spots, and centralized metrics with real-time door management tools for event producers."
+    },
+    "araucoturismo": {
+      "title": "Arauco Turismo",
+      "subtitle": "Chile Tourism Platform",
+      "description": "Platform developed for the Arauco Turismo agency, making it easy to explore and book tour packages to Chile. Features a rich catalog and a user-experience focused design."
     }
   },
   "contact": {
