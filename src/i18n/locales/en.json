@@ -82,6 +82,11 @@
       "sites": "Websites",
       "systems": "Systems"
     },
+    "gcsistema": {
+      "title": "GC Sistema",
+      "subtitle": "Construction Contract Management",
+      "description": "Full-stack web platform for managing glass and frame construction contracts. Centralizes proposals, on-site execution, measurements, billing, and AI automation via Telegram and Gemini for structured document extraction."
+    },
     "correai": {
       "title": "CorreAI (CRM with AI)",
       "subtitle": "CRM for Real Estate Agents",

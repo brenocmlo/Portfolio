@@ -82,6 +82,11 @@
       "sites": "Sites",
       "systems": "Sistemas"
     },
+    "gcsistema": {
+      "title": "GC Sistema",
+      "subtitle": "Gestão de Contratos de Obras",
+      "description": "Sistema web completo para gestão de contratos e execução de obras de esquadrias e vidros. Centraliza orçamentos, contratos, medições, financeiro e automação com IA via Telegram e Gemini para extração estruturada de documentos."
+    },
     "correai": {
       "title": "CorreAI (CRM com IA)",
       "subtitle": "CRM para Corretores de Imóveis",

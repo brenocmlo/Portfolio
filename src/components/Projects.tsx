@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Bot, Calendar, Scale, Sparkles, Globe, ArrowRight, Crown, Plane } from 'lucide-react';
+import { Bot, Calendar, Scale, Sparkles, Globe, ArrowRight, Crown, Plane, Building2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 // @ts-ignore
 import MagicBento from './MagicBento';
@@ -9,6 +9,18 @@ export default function Projects() {
   const { t } = useTranslation();
 
   const projects = [
+    {
+      title: t('projects.gcsistema.title'),
+      subtitle: t('projects.gcsistema.subtitle'),
+      description: t('projects.gcsistema.description'),
+      image: '/gc_sistema_mockup.png',
+      tags: ['Next.js 14', 'TypeScript', 'Supabase', 'n8n', 'IA'],
+      icon: <Building2 className="w-5 h-5 text-accent-cyan" />,
+      color: 'hover:border-accent-cyan/40 hover:shadow-[0_0_30px_rgba(6,182,212,0.15)]',
+      glowColor: '6, 182, 212',
+      link: 'https://gc-sistema-nine.vercel.app',
+      category: 'systems'
+    },
     {
       title: t('projects.listasvip.title'),
       subtitle: t('projects.listasvip.subtitle'),
